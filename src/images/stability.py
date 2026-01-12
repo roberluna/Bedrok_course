@@ -6,7 +6,7 @@ import os
 
 client = boto3.client(service_name='bedrock-runtime', region_name='us-east-1')
 modelId='amazon.titan-image-generator-v2:0'
-prompt =  "A photo of a dragon, please"
+prompt =  "A photo of a cat, please"
 seed = random.randint(0,2147483647)
 
 
