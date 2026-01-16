@@ -1,0 +1,6 @@
+POST https://23fjcbkvw6.execute-api.us-east-1.amazonaws.com/prod/gdpr
+Content-Type: application/json
+
+{
+    "question": "in spanhish: what is GDPR in a very short words"
+}
